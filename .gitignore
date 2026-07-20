@@ -1,0 +1,21 @@
+# KiCad auto-generated / backups
+*-backups/
+*.kicad_prl
+fp-info-cache
+
+# KiCad lock and backup files
+*.lck
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*~
+
+# Unrelated / local junk
+3DxWare/
+3DxService.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cb438fcd-98ad-4b96-995d-9cc141a4f6d9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 76.2 29.21)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e9f25ce-3924-4476-88a9-39de14992abb")
+		(property "Sheetname" "ESP32-S3"
+			(at 76.2 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-S3.kicad_sch"
+			(at 76.2 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "First_ESP32"
+				(path "/cb438fcd-98ad-4b96-995d-9cc141a4f6d9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 26.67)
+		(size 24.13 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afdf48d7-56fe-49cb-8b1f-b8909e2c276b")
+		(property "Sheetname" "Block Diagram"
+			(at 29.21 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 29.21 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "First_ESP32"
+				(path "/cb438fcd-98ad-4b96-995d-9cc141a4f6d9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
