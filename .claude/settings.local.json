@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python calibrate.py)",
+      "Bash(python netlist.py)",
+      "WebFetch(domain:docs.odriverobotics.com)",
+      "WebFetch(domain:www.crowdsupply.com)",
+      "WebFetch(domain:shop.odriverobotics.com)",
+      "WebSearch",
+      "WebFetch(domain:www.nxp.com)",
+      "WebFetch(domain:www.snapeda.com)",
+      "WebFetch(domain:www.alldatasheet.com)",
+      "WebFetch(domain:www.lcsc.com)",
+      "WebFetch(domain:www.digikey.kr)",
+      "WebFetch(domain:www.utmel.com)",
+      "WebFetch(domain:www.ti.com)",
+      "Bash(python3 -c ' *)",
+      "Bash(awk 'NR>4270' ESP32-S3.kicad_sch)",
+      "Bash(python analyze2.py)"
+    ]
+  }
+}
