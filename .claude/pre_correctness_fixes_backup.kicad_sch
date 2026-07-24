@@ -8943,20 +8943,12 @@
 		(uuid "3f881034-1bc7-414c-9068-aaa2e9b75371")
 	)
 	(no_connect
-		(at 196.85 119.38)
-		(uuid "439eb7b6-9273-4446-a9bd-1a04810e4dfa")
-	)
-	(no_connect
 		(at 45.72 59.69)
 		(uuid "44996746-b271-434d-bed0-a9a8c4fced4a")
 	)
 	(no_connect
 		(at 196.85 91.44)
 		(uuid "65caea26-fe3d-453a-b1b6-43f865d77f1b")
-	)
-	(no_connect
-		(at 196.85 121.92)
-		(uuid "731cbe3c-b05b-4c42-9d3e-c4e7cab10c18")
 	)
 	(no_connect
 		(at 196.85 101.6)
@@ -10850,6 +10842,28 @@
 			)
 		)
 	)
+	(global_label "GPIO41"
+		(shape input)
+		(at 196.85 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b97b625-39f0-4c9e-a975-5d8b2eafca3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.7295 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO3"
 		(shape input)
 		(at 166.37 99.06 180)
@@ -11682,6 +11696,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO42"
+		(shape input)
+		(at 196.85 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed54ec92-1e8d-423a-812a-5dbb157f0617")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.7295 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12859,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:DDA0008J"
+		(property "Footprint" "Package_SO:HSOP-8_3.9x4.9mm_P1.27mm"
 			(at 83.82 177.8 0)
 			(effects
 				(font
@@ -13897,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:L_Wurth_WE-PD-1260"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0603"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -14146,78 +14182,6 @@
 			(project "First_ESP32"
 				(path "/cb438fcd-98ad-4b96-995d-9cc141a4f6d9/2e9f25ce-3924-4476-88a9-39de14992abb"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-07-21_10-18-21:5055670271")
-		(at 25.4 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38cfe829-3dc5-461d-a195-c8ce692cbd6d")
-		(property "Reference" "J2"
-			(at 39.37 85.0899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5055670271"
-			(at 39.37 87.6299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN_505567_02_MOL"
-			(at 25.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5055670271?display=pdf"
-			(at 25.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0b11347-1623-4f03-b737-529c7692164b")
-		)
-		(pin "1"
-			(uuid "243be658-e125-483f-80dc-d8674c6a7f71")
-		)
-		(instances
-			(project "First_ESP32"
-				(path "/cb438fcd-98ad-4b96-995d-9cc141a4f6d9/2e9f25ce-3924-4476-88a9-39de14992abb"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17099,6 +17063,78 @@
 			(project "First_ESP32"
 				(path "/cb438fcd-98ad-4b96-995d-9cc141a4f6d9/2e9f25ce-3924-4476-88a9-39de14992abb"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-07-21_10-18-21:5055670271")
+		(at 25.4 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913e3dd3-5ae4-4a39-99f6-42bec5a0f3b5")
+		(property "Reference" "J2"
+			(at 39.37 85.0899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5055670271"
+			(at 39.37 87.6299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_505567_02_MOL"
+			(at 25.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5055670271?display=pdf"
+			(at 25.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fec4d6e3-84b4-4fca-a5ba-e3aa835f75a8")
+		)
+		(pin "1"
+			(uuid "fadcd242-e16a-446b-8738-d7c7eb191eb7")
+		)
+		(instances
+			(project "First_ESP32"
+				(path "/cb438fcd-98ad-4b96-995d-9cc141a4f6d9/2e9f25ce-3924-4476-88a9-39de14992abb"
+					(reference "J2")
 					(unit 1)
 				)
 			)
